@@ -1,0 +1,21 @@
+.header__nav-icon {
+    font-size: 1.8 rem;
+    margin: 0 4px;
+    color: white;
+}
+
+.header__nav-item,
+.header__nav-item-link,
+.header__nav-icon-link {
+    display: inline-flex;
+    align-items: center;
+}
+
+.header__nav-icon-link {
+    text-decoration: none;
+}
+
+.header__nav-title--no-pointer {
+    cursor: text;
+    color: white;
+}
